@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* -----------------styles for banner--------- */
+.banner {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+}
+.banner-text {
+  margin-left: 240px;
+  margin-top: 197px;
+}
+.shop-slogan {
+  width: 708px;
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+}
+.shop-description {
+  width: 634px;
+  margin: 32px;
+}
+.btn-primary {
+  border: none;
+  padding: 20px 43px;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  color: white;
+}
+.banner-image {
+  margin-top: 50px;
+  margin-right: 240px;
+}
+#banner-image {
+  position: right;
+}
