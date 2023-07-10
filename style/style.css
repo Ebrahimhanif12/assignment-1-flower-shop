@@ -9,6 +9,8 @@
 .banner {
   background-color: rgba(229, 84, 115, 0.1);
   display: flex;
+  gap: 95px;
+  justify-content: space-between;
 }
 .banner-text {
   margin-left: 240px;
@@ -23,7 +25,13 @@
 }
 .shop-description {
   width: 634px;
-  margin: 32px;
+  margin: 32px 0;
+  text-align: justify;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 .btn-primary {
   border: none;
@@ -36,6 +44,9 @@
 .banner-image {
   margin-top: 50px;
   margin-right: 240px;
+  width: 635px;
+  height: 800px;
+  flex-shrink: 0;
 }
 #banner-image {
   position: right;
