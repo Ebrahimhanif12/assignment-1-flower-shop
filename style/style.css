@@ -55,7 +55,6 @@
 .bonus-section-container {
   justify-content: center;
   width: 1920px;
-  height: 4867px;
   gap: 24px;
 }
 .bonus-section-text {
@@ -139,4 +138,17 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 35px;
+}
+/* ----------------------------------------optional section styles------------------------- */
+.optional-section {
+  justify-content: center;
+}
+.optional-section-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 1440px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
 }
