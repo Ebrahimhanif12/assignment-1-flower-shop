@@ -56,6 +56,13 @@
   justify-content: center;
   width: 1920px;
   height: 4867px;
+  gap: 24px;
+}
+.bonus-section-text {
+  align-items: center;
+  margin-top: 178px;
+  margin-bottom: 45px;
+  /* width: 500px; */
 }
 
 .bonus-section-title {
@@ -64,6 +71,7 @@
   font-family: Lato;
   font-size: 40px;
   font-weight: 800;
+  margin-bottom: 25px;
 }
 .bonus-section-description {
   color: rgba(39, 39, 39, 0.6);
@@ -73,7 +81,6 @@
   font-size: 18px;
   font-weight: 400px;
   line-height: 30px;
-  width: 590px;
 }
 .bonus-section-image1-container {
   display: block;
@@ -82,23 +89,30 @@
   width: 464px;
   height: 538px;
   justify-content: center;
+  text-align: center;
   align-items: center;
 }
 .bonus-section-image1-container img {
   width: 310px;
   height: 428px;
   flex-shrink: 0;
+  padding: 110px 78px 0 76px;
 }
 .bonus-section-images {
   display: flex;
+  margin-left: 240px;
+  margin-right: 240px;
+  justify-content: center;
 }
 .bonus-section-image2-container {
+  text-align: center;
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
 }
 .bonus-section-image3-container {
+  text-align: center;
   width: 464px;
   height: 538px;
   border-radius: 300px 300px 0px 0px;
@@ -107,14 +121,22 @@
 .bonus-section-image2-container img {
   width: 370px;
   height: 370px;
+  padding: 117px 47px 51px 47px;
 }
-.bonus-section-image3-container image {
+.bonus-section-image3-container img {
   width: 314px;
   height: 471px;
-  flex-shrink: 0;
+  padding: 67px 75px 0 75px;
 }
 .bonus-section-images {
   justify-content: space-between;
   align-content: center;
   margin: 20px 240px;
+}
+.flower-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
 }
