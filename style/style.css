@@ -279,3 +279,32 @@
   font-weight: 400;
   margin-top: 32px;
 }
+/* ------------------------------------Extra section styles-------------------- */
+.extra-section-container {
+  display: flex;
+  margin-left: 240px;
+  margin-right: 240px;
+  gap: 24px;
+  justify-content: center;
+  margin: auto;
+}
+.extra-section-colum {
+  width: 342px;
+  border-radius: 5px;
+  text-align: center;
+  background: #fdfbfb;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.extra-section-container img {
+  width: 340px;
+  height: 390px;
+}
+.flower-name {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
