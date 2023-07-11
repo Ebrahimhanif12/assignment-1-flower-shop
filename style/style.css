@@ -167,3 +167,34 @@
 .optional-img3 {
   margin-right: 200px;
 } */
+/* ---------------------------Hit deal Section-------------------- */
+.hot-deal {
+  display: flex;
+  justify-content: space-between;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-heading {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+.hot-deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+#signub-btn {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+}
