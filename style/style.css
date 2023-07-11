@@ -141,14 +141,29 @@
 }
 /* ----------------------------------------optional section styles------------------------- */
 .optional-section {
-  justify-content: center;
+  margin: 128px 240px;
 }
 .optional-section-container {
   display: flex;
-  align-content: center;
   justify-content: space-between;
   width: 1440px;
   height: 320px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
 }
+.optional-colum {
+  padding: 86px 80px;
+  text-align: center;
+}
+.optional-colum-text {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+}
+/* .optional-img1 {
+  margin-left: 200px;
+}
+.optional-img3 {
+  margin-right: 200px;
+} */
