@@ -27,12 +27,10 @@
 .banner {
   background-color: rgba(229, 84, 115, 0.1);
   display: flex;
-  gap: 95px;
+  gap: 60px;
   justify-content: space-between;
   margin: auto;
-  height: 850px;
-  padding: 20px;
-  width: 100%;
+  padding: 50px 20px 0 20px;
 }
 .banner-text {
   margin: auto;
@@ -63,15 +61,13 @@
   background: #e55473;
   color: white;
 }
-.banner-image {
-  margin: auto;
-  margin-top: 50px;
-  /* margin-right: 240px; */
-  width: 635px;
-  height: 800px;
-}
+
 #banner-image {
   position: right;
+  width: 500px;
+  height: 630px;
+  padding-right: 150px;
+  margin: auto;
 }
 /* --------------------Bonus section (Featured) */
 .bonus-section-container {
@@ -221,11 +217,8 @@
 /* ------------------------------------------Hot deal Section---------------------------- */
 .hot-deal {
   display: flex;
-  /* flex-direction: column; */
-  justify-content: space-between;
-  height: 620px;
+  justify-content: space-around;
   border-radius: 8px;
-  margin: auto;
   background: rgba(229, 84, 115, 0.05);
 }
 .hot-deal-heading {
@@ -233,6 +226,7 @@
   font-family: Lato;
   font-size: 40px;
   font-weight: 800;
+  position: right;
 }
 .hot-deal-description {
   color: rgba(39, 39, 39, 0.6);
@@ -244,6 +238,7 @@
   width: 594px;
   margin-top: 24px;
   margin-bottom: 30px;
+  position: right;
 }
 .hot-deal-btn-container {
   display: flex;
