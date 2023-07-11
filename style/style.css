@@ -102,6 +102,7 @@
   margin-left: 240px;
   margin-right: 240px;
   justify-content: center;
+  width: 1440px;
 }
 .bonus-section-image2-container {
   text-align: center;
@@ -167,7 +168,7 @@
 .optional-img3 {
   margin-right: 200px;
 } */
-/* ---------------------------Hit deal Section-------------------- */
+/* ---------------------------Hot deal Section-------------------- */
 .hot-deal {
   display: flex;
   justify-content: space-between;
@@ -203,4 +204,18 @@
 #hot-deal-img {
   width: 318px;
   height: 420px;
+}
+/* --------------------------------------Social Section----------------- */
+#social-container {
+  justify-content: center;
+}
+/* --------------------------------------------Latest deal section---------------- */
+.latest-deal-container {
+  width: 1440px;
+  height: 449px;
+  background-image: url("../Flower\ Asset/Rectangle\ 9.png");
+  display: flex;
+  margin-left: 240px;
+  margin-right: 240px;
+  justify-content: center;
 }
