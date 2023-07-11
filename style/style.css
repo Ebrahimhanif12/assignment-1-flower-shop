@@ -192,9 +192,15 @@
   margin-top: 24px;
   margin-bottom: 30px;
 }
-#signub-btn {
-  display: inline-flex;
-  padding: 20px 43px;
-  align-items: flex-start;
-  gap: 10px;
+.hot-deal-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hot-deal-text {
+  justify-content: center;
+}
+#hot-deal-img {
+  width: 318px;
+  height: 420px;
 }
