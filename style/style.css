@@ -246,3 +246,36 @@
   border: none;
   margin-right: 16px;
 }
+
+/* ------------------------------Footer section styles-------------------- */
+.footer-section {
+  height: 449px;
+  background: #111010;
+  justify-content: center;
+}
+.footer-container {
+  justify-content: center;
+  padding: 128px 650px;
+  margin: auto;
+}
+#footer-title {
+  color: #e55473;
+}
+#footer-desciption {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 625px;
+}
+.footer-last {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 32px;
+}
