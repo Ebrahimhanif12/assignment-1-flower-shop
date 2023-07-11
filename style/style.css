@@ -78,34 +78,13 @@
   gap: 24px;
   margin: auto;
 }
-/* .bonus-section-images {
-  width: 1440px;
-  margin: auto;
-} */
+
 .bonus-section-text {
   align-items: center;
   margin-top: 178px;
   margin-bottom: 45px;
-  /* width: 500px; */
 }
 
-/* .bonus-section-title {
-  color: #272727;
-  text-align: center;
-  font-family: Lato;
-  font-size: 40px;
-  font-weight: 800;
-  margin-bottom: 25px;
-} */
-/* .bonus-section-description {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: center;
-  font-family: Lato;
-
-  font-size: 18px;
-  font-weight: 400px;
-  line-height: 30px;
-} */
 .bonus-section-image1-container {
   display: block;
   border-radius: 300px 300px 0px 0px;
@@ -121,8 +100,6 @@
 }
 .bonus-section-images {
   display: flex;
-  /* margin-left: 240px;
-  margin-right: 240px; */
   text-align: center;
   margin: auto;
   justify-content: center;
@@ -137,8 +114,6 @@
 }
 
 .bonus-section-image2-container {
-  /* width: 464px;
-  height: 538px; */
   width: 364px;
   height: 438px;
 
@@ -146,23 +121,17 @@
   background: rgba(5, 151, 160, 0.15);
 }
 .bonus-section-image3-container {
-  /* width: 464px;
-  height: 538px; */
   width: 364px;
   height: 438px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
 }
 .bonus-section-image2-container img {
-  /* width: 370px;
-  height: 370px; */
   width: 210px;
   height: 328px;
   padding: 117px 47px 51px 47px;
 }
 .bonus-section-image3-container img {
-  /* width: 314px;
-  height: 471px; */
   width: 210px;
   height: 328px;
   padding: 67px 75px 0 75px;
@@ -177,8 +146,6 @@
   font-family: Lato;
   font-size: 24px;
   margin: auto;
-  /* font-weight: 700;
-  line-height: 35px; */
 }
 /* ----------------------------------------optional section styles------------------------- */
 .optional-section {
@@ -186,7 +153,6 @@
   margin: auto;
   margin-top: 128px;
   margin-bottom: 128px;
-  /* width: 50%; */
 }
 .optional-section-container {
   display: flex;
@@ -208,12 +174,7 @@
   margin-top: 24px;
   font-size: 24px;
 }
-/* .optional-img1 {
-  margin-left: 200px;
-}
-.optional-img3 {
-  margin-right: 200px;
-} */
+
 /* ------------------------------------------Hot deal Section---------------------------- */
 .hot-deal {
   display: flex;
@@ -258,7 +219,6 @@
   margin: auto;
   margin-top: 128px;
   margin-bottom: 48px;
-  /* justify-content: space-between; */
   width: 1140px;
 }
 #social-images {
@@ -334,8 +294,6 @@
 /* ------------------------------------Extra section styles-------------------- */
 .extra-section-container {
   display: flex;
-  /* margin-left: 240px;
-  margin-right: 240px; */
   margin: auto;
   gap: 10px;
   justify-content: center;
