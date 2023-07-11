@@ -29,10 +29,14 @@
   display: flex;
   gap: 95px;
   justify-content: space-between;
+  margin: auto;
+  height: 850px;
+  padding: 20px;
+  width: 100%;
 }
 .banner-text {
-  margin-left: 240px;
-  margin-top: 197px;
+  margin: auto;
+  margin-right: 50px;
 }
 .shop-slogan {
   width: 708px;
@@ -60,11 +64,11 @@
   color: white;
 }
 .banner-image {
+  margin: auto;
   margin-top: 50px;
-  margin-right: 240px;
+  /* margin-right: 240px; */
   width: 635px;
   height: 800px;
-  flex-shrink: 0;
 }
 #banner-image {
   position: right;
@@ -72,10 +76,16 @@
 /* --------------------Bonus section (Featured) */
 .bonus-section-container {
   justify-content: center;
-  width: 1920px;
+  text-align: center;
+  align-items: center;
+  max-width: 1440px;
   gap: 24px;
   margin: auto;
 }
+/* .bonus-section-images {
+  width: 1440px;
+  margin: auto;
+} */
 .bonus-section-text {
   align-items: center;
   margin-top: 178px;
@@ -104,76 +114,95 @@
   display: block;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  width: 464px;
-  height: 538px;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  width: 364px;
+  height: 438px;
 }
 .bonus-section-image1-container img {
-  width: 310px;
-  height: 428px;
+  width: 210px;
+  height: 328px;
   flex-shrink: 0;
   padding: 110px 78px 0 76px;
 }
 .bonus-section-images {
   display: flex;
-  margin-left: 240px;
-  margin-right: 240px;
-  justify-content: center;
-  width: 1440px;
-}
-.bonus-section-image2-container {
+  /* margin-left: 240px;
+  margin-right: 240px; */
   text-align: center;
-  width: 464px;
-  height: 538px;
+  margin: auto;
+  justify-content: center;
+  width: 1140px;
+}
+.bonus-anchors {
+  display: flex;
+  text-align: justify;
+  margin: auto;
+  justify-content: space-between;
+  width: 1140px;
+}
+
+.bonus-section-image2-container {
+  /* width: 464px;
+  height: 538px; */
+  width: 364px;
+  height: 438px;
+
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
 }
 .bonus-section-image3-container {
-  text-align: center;
-  width: 464px;
-  height: 538px;
+  /* width: 464px;
+  height: 538px; */
+  width: 364px;
+  height: 438px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
 }
 .bonus-section-image2-container img {
-  width: 370px;
-  height: 370px;
+  /* width: 370px;
+  height: 370px; */
+  width: 210px;
+  height: 328px;
   padding: 117px 47px 51px 47px;
 }
 .bonus-section-image3-container img {
-  width: 314px;
-  height: 471px;
+  /* width: 314px;
+  height: 471px; */
+  width: 210px;
+  height: 328px;
   padding: 67px 75px 0 75px;
 }
 .bonus-section-images {
   justify-content: space-between;
   align-content: center;
-  margin: 20px 240px;
+  margin: 20px 100px;
 }
 .flower-title {
   color: #272727;
   font-family: Lato;
   font-size: 24px;
+  margin: auto;
   font-weight: 700;
   line-height: 35px;
 }
 /* ----------------------------------------optional section styles------------------------- */
 .optional-section {
-  margin: 128px 240px;
+  width: 1140px;
+  margin: auto;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  /* width: 50%; */
 }
 .optional-section-container {
   display: flex;
   justify-content: space-between;
-  width: 1440px;
+  width: 1140px;
   height: 320px;
   margin: auto;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
 }
 .optional-colum {
-  padding: 86px 80px;
+  padding: 86px 40px;
   text-align: center;
 }
 .optional-colum-text {
@@ -189,9 +218,10 @@
 .optional-img3 {
   margin-right: 200px;
 } */
-/* ---------------------------Hot deal Section-------------------- */
+/* ------------------------------------------Hot deal Section---------------------------- */
 .hot-deal {
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-between;
   height: 620px;
   border-radius: 8px;
@@ -233,13 +263,20 @@
   margin: auto;
   margin-top: 128px;
   margin-bottom: 48px;
+  /* justify-content: space-between; */
+  width: 1140px;
 }
 #social-images {
   margin: auto;
+  gap: 10px;
+}
+#social-images img {
+  width: 200px;
+  height: 240px;
 }
 /* --------------------------------------------Latest deal section---------------- */
 .latest-deal-container {
-  width: 1440px;
+  width: 1140px;
   height: 449px;
   background-image: url("../Flower\ Asset/Rectangle\ 9.png");
   margin-left: 240px;
@@ -276,7 +313,7 @@
 }
 .footer-container {
   justify-content: center;
-  padding: 128px 650px;
+  padding: 128px 250px;
   margin: auto;
 }
 #footer-title {
@@ -303,15 +340,17 @@
 /* ------------------------------------Extra section styles-------------------- */
 .extra-section-container {
   display: flex;
-  margin-left: 240px;
-  margin-right: 240px;
+  /* margin-left: 240px;
+  margin-right: 240px; */
+  margin: auto;
   gap: 10px;
   justify-content: center;
-  margin: auto;
   margin-top: 100px;
+  max-width: 1440px;
 }
 .extra-section-colum {
-  width: 342px;
+  width: 25%;
+  margin: auto;
   border-radius: 5px;
   text-align: center;
   background: #fdfbfb;
@@ -319,8 +358,8 @@
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .extra-section-container img {
-  width: 340px;
-  height: 390px;
+  width: 200px;
+  height: 240px;
 }
 .flower-name {
   color: #744747;
